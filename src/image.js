@@ -53,7 +53,7 @@ export default class ImageWithLoading extends Component {
           source={source}
           onLoadStart={this._onLoadStart}
           onLoadEnd={this._onLoadEnd}
-          resizeMode="contain"
+          resizeMode="cover"
           />
       </View>
     );
